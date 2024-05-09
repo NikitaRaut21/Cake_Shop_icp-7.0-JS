@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./../css/feedback.css">
+</head>
+<body>
+    
+<div class="body">
+    <h1>Feedback Form</h1>
+
+  <div class="card">
+      <h1>Rate Our Gondeshwar Foods </h1>
+      
+      <div class="review_card">
+          <span class="review">Write Review Here</span>
+      <textarea class="ta" rows="2" cols="15" required></textarea>
+      </div> 
+
+      <br />
+
+  <div class="container">
+      <img class="star" id="s1" src="./../icon/star1.png" alt="star_img" onclick="star(1)">
+      <img class="star" id="s2" src="./../icon/star1.png" alt="star_img" onclick="star(2)">
+      <img class="star" id="s3" src="./../icon/star1.png" alt="star_img" onclick="star(3)">
+      <img class="star" id="s4" src="./../icon/star1.png" alt="star_img" onclick="star(4)">
+      <img class="star" id="s5" src="./../icon/star1.png" alt="star_img" onclick="star(5)">
+</div>
+
+      <h3 id="rating">
+          Rating is: 0/5
+      </h3>
+
+      <button class="sbtn" id="submit_btn" onclick="submit()">Submit</button>
+  </div>
+</div>
+<script src="./../js/feedback.js"></script>
+</body>
+</html>
