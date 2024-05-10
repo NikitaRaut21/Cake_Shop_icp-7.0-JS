@@ -5,6 +5,7 @@
     align-items: center;
     justify-content:center ;
     margin: 30px ;
+   
 }
 .container {
      display: flex;
@@ -13,10 +14,14 @@
     justify-content: center;
     margin-top: 5px;
     }
-    
-    .card {
+   #submit_btn{
+    width: 180px;
+    margin-left: 160px;
+    height: 50px;
+   }
+.card {
     max-width: 33rem;
-    background-color:#e185b16a;
+    
     margin: 50px auto;
     margin-bottom: 110px;
     margin-top: 25px;
@@ -54,7 +59,7 @@
         font-weight:bold;
         
         }
-        
+       
         .sbtn{
             font-size: 30px ;
             padding: 5px 30px;

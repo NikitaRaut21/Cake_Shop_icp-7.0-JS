@@ -1,0 +1,126 @@
+.sign_heading{
+    font-family: 'Protest Riot', sans-serif;
+    color:black;
+    margin: 60px 0px 0px 800px;
+    font-size: 45px;
+    position: relative;
+    top: 18px;
+}
+.login{
+    margin-left: -120px;
+}
+
+.sub-log{
+    height: 500px;
+    width: 400px;
+    background-color: #941d576a;
+    border-radius: 50px 0px 50px 0px;
+    margin: 50px 0px 80px 680px;
+    box-shadow: 2px 2px 7px 1px #4d001f;
+}
+
+.login-img{
+    height: 130px;
+    margin: 18px 0px 0px 140px;
+}
+
+.log-email{
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1.5px solid #787777;
+    height: 40px;
+    width: 250px;
+    margin: 20px 0px 10px 70px;
+    background-color: #f8f9f9;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 2px 2px 6px 0 #4d001f;
+}
+
+#loginBtn{
+    background-color:white ;
+    border-radius: 9px;
+    margin-left: 120px;
+}
+.log-pass{
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1.5px solid #787777;
+    height: 40px;
+    width: 250px;
+    margin: 10px 0px 0px 70px;
+    background-color: #f8f9f9;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 2px 2px 6px 0 #4d001f;
+}
+
+.forgot{
+    font-size: 19px;
+    color: #dfd1d1;
+    font-family: 'Playfair Display', serif;
+}
+
+.forgot a{
+    margin: 9px 0px 0px -110px;
+    text-decoration: none;
+    color:#3e2922;
+}
+.btn{
+    font-family: 'Lora', serif;
+    font-size: 12px;
+    height:34px;
+    width: 150px;
+    border:1.5px solid #080808;
+    color:black;
+ 
+     box-shadow: 2px 2px 2px 0 #4d001f;
+    margin: 20px 0px 10px 102px;
+}
+.btn:hover{
+    
+    border:2px solid #efe8eb;
+    transition:1.5s;
+    border-radius:10px;
+    color:#3e2922;
+}
+.create-acc{
+    font-size: 19px;
+    color: #181717;
+    margin: 15px 0px 0px 30px;
+    font-family: 'Playfair Display', serif;
+}
+.create-acc a{
+    text-decoration: none;
+    color:#3e2922;
+}
+/* media query */
+@media screen and (min-width: 992px) and (max-width: 1300px){
+    .sign_heading{
+        font-size: 39px;
+        margin: 60px 0px 0px 560px;
+    }
+    .sub-log{
+      margin: 50px 0px 80px 430px;
+    }
+
+    .btn{
+        font-size: 22px;
+        height:34px;
+        width: 194px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .sign_heading{
+        font-size: 35px;
+        margin: 60px 0px 0px 400px;
+    }
+    .sub-log{
+      margin: 50px 0px 80px 250px;
+    }
+
+    .btn{
+        font-size: 20px;
+        height: 32px;
+        width: 170px;
+    }
+}

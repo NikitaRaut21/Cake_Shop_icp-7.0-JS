@@ -8,6 +8,7 @@
     
     .slide {
       display: none;
+      box-shadow: 1px 2px 3px 2px;
      
     }
     
@@ -20,7 +21,8 @@
       flex-direction: row;
     }
     .offer{
-      padding: 16px;
+      padding: 20px;
+
     }
     @keyframes fade {
       from {opacity: .4} 
@@ -66,12 +68,16 @@
     
    }
    .card-sh{
-    box-shadow: 2px 3px 2px 0;
+    box-shadow: 2px 3px 1px 0;
     margin: 40px;
    
    }
    .title-cake{
     text-align: center;
+    background-color: #e893b5;
+   padding: 12px;
+  
+   
     
     
    }
