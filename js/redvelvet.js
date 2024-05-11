@@ -29,7 +29,7 @@ function dec(){
     setTotalAmount(quatity);
 }
 function setTotalAmount(quatity){
-    showQuantity.innerText = `${quatity} x 590`;
-    showTotal.innerText = `Total: ${quatity * 590}`;
+    showQuantity.innerText = `${quatity} x 800`;
+    showTotal.innerText = `Total: ${quatity * 800}`;
 }
 
