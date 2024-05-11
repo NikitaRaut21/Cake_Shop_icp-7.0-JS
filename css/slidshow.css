@@ -107,7 +107,14 @@
 }
 #Main-Product{
   width: 500px;
+  margin-left: 90px;
 }
-.dec1{
+.dec{
   margin-left: 30px;
+font-size: larger;
 }
+.Product-images-con{
+margin-right: 500px;
+}
+
+

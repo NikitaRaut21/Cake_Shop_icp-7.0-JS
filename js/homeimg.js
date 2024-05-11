@@ -9,6 +9,9 @@ function ChangeImage(num){
     else if(num==3){
         MainImage.src = "./../images/cho4.jfif";
     }
+    else if(num==4){
+        MainImage.src = "./../images/eng3.jfif";
+    }
    
     
   
