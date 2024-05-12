@@ -37,6 +37,17 @@
   color: black;
 }
 
+@media (min-width: 600px) and (max-width: 768px){
+  .foot{
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
 
 
 
