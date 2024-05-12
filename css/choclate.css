@@ -1,7 +1,7 @@
 
 .product-card{
   
-    width: 250px;
+    width: 290px;
     border-radius: 26px;
     box-shadow: 1px 1px 2px 2px;
     display: block;
@@ -12,6 +12,7 @@
 .watch1{
   
 height: 170px;
+border: 1px solid rgb(66, 65, 65);
     display: block;
     margin: 10px auto;
     padding-top: 10px;
@@ -50,13 +51,13 @@ height: 170px;
 }
 .btn-buyNow{
     display: block;
-   background-color: #4d001f;
+   background-color: #941d576a;
     border: none;
     border-radius: 20px;
     padding: 3px 20px;
     cursor: pointer;
     margin: 20px auto;
-    color: white;
+    color:black;
   
   
 }
