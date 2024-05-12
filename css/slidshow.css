@@ -19,6 +19,7 @@
     .main{
       display: flex;
       flex-direction: row;
+      margin-top: 60px;
     }
     .offer{
       padding: 20px;
