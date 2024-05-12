@@ -144,4 +144,9 @@ h3{
    padding: 12px;
    width: 400px;
    margin-left: 560px;
+   margin-top: 10px;
+}
+.map{
+ border: 1px solid black;
+ 
 }
