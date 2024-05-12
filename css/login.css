@@ -92,35 +92,3 @@
     text-decoration: none;
     color:#3e2922;
 }
-/* media query */
-@media screen and (min-width: 992px) and (max-width: 1300px){
-    .sign_heading{
-        font-size: 39px;
-        margin: 60px 0px 0px 560px;
-    }
-    .sub-log{
-      margin: 50px 0px 80px 430px;
-    }
-
-    .btn{
-        font-size: 22px;
-        height:34px;
-        width: 194px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px){
-    .sign_heading{
-        font-size: 35px;
-        margin: 60px 0px 0px 400px;
-    }
-    .sub-log{
-      margin: 50px 0px 80px 250px;
-    }
-
-    .btn{
-        font-size: 20px;
-        height: 32px;
-        width: 170px;
-    }
-}

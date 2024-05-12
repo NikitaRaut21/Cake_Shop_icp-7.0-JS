@@ -9,6 +9,9 @@
     padding: 10px;
     
 }
+.main-crd{
+    margin-top: 100px;
+}
 .watch1{
   
 height: 170px;
@@ -60,4 +63,9 @@ border: 1px solid rgb(66, 65, 65);
     color:black;
   
   
+}
+@media (min-width: 600px) and (max-width: 768px){
+    .main-crd{
+        margin-top: 85px;
+    }
 }
