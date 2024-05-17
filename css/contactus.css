@@ -152,6 +152,9 @@ h3{
  
 }
 @media (min-width: 600px) and (max-width: 768px){
+    .container{
+        margin-left: 30px;
+    }
     .contactinfo-me{
         display: flex;
     flex-direction: column;
@@ -162,14 +165,15 @@ h3{
       height: 250;
     }
     .gall{
-        text-align: center;
+     
+        margin-right: 250px;
        
     }
-     .Main-Product{
-        margin-left: 430px;
+     #Main-Product{
+        margin-left: 120px;
      }
      .Product-images-container{
-        margin-left: 190px;
+        margin-left: 390px;
      }
     
 }
